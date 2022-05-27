@@ -28,7 +28,7 @@ public class WeightedGraph<V> {
                 ArrayList<Vertex<V>> vAdjList = this.getAdjacencyListOf(v);
                 vAdjList.remove(vertex);
             }
-            System.out.printf("Removed vertex: ", vertex);
+            System.out.printf("vertex removed ", vertex);
         }
     }
 
